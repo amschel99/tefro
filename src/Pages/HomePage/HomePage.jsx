@@ -48,7 +48,7 @@ function HomePage(props) {
                         <div class="video-container">
                             <iframe
                                 class="video-iframe"
-                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                src="https://www.youtube.com/embed/xh3OuuCQwGg?si=GfKCn1J_NwsgIo9U"
                                 title="Rick Roll"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -402,13 +402,80 @@ function HomePage(props) {
                         </Swiper>
                         <img src="./btn-next.png" alt="" className="next" />
                     </div>
-                    <a
-                        href="mailto:info@tefro.tech"
-                        target="_blank"
-                        className="btn btn-primary"
-                    >
-                        Send us an Email
-                    </a>
+                    <form action="https://formsubmit.co/kariukiamschel9@gmail.com" method="POST" style={{
+
+                        display:"flex",
+                        flexDirection:"column",
+                        width:"100%",
+                        alignItems:"center",
+                        marginTop:"50px",
+                        justifyContent:"space-evenly"
+                    }}>
+                          <h2 className="reviews__carousel__item__name" style={{fontWeight:"bold", fontSize:"26px"}}>
+                                     Contact Us
+                                    </h2>
+                                    <input type="hidden" name="_cc" value="art68401@gmail.com,6290.2020@students.ku.ac.ke"></input>
+                                    <input type="hidden" name="_captcha" value="false"></input>
+     <input  placeholder="Name" 
+     style={{
+        height: "40px",
+        width: "47vw",
+        borderRadius: "10px",
+        outline: "none",
+        border: "2px solid #00f2b6",
+        color: "#00f2b6",
+        fontSize: "16px",
+        alignItems: "center",
+        display: "flex",
+        justifyContent: "center",
+        marginBlock: "10px",
+        resize: "none",  // Disable textarea resizing
+        padding: "10px", // Add padding for text margin from the border
+      }}
+     type="text" name="name" required/>
+     <input 
+     placeholder="Email"
+      style={{
+        height: "40px",
+        width: "47vw",
+        borderRadius: "10px",
+        outline: "none",
+        border: "2px solid #00f2b6",
+        color: "#00f2b6",
+        fontSize: "16px",
+        alignItems: "center",
+        display: "flex",
+        justifyContent: "center",
+        marginBlock: "10px",
+        resize: "none",  // Disable textarea resizing
+        padding: "10px", // Add padding for text margin from the border
+      }}
+     type="email" name="email" required/>
+     <textarea
+     placeholder="Message"
+  style={{
+    height: "100px",
+    width: "50vw",
+    borderRadius: "10px",
+    outline: "none",
+    border: "2px solid #00f2b6",
+    color: "#00f2b6",
+    fontSize: "16px",
+    alignItems: "center",
+    display: "flex",
+    justifyContent: "center",
+    marginBlock: "10px",
+    resize: "none",  // Disable textarea resizing
+    padding: "10px", // Add padding for text margin from the border
+  }}
+  name="message"
+  required
+/>
+<input type="hidden" name="_next" value="https://tefro.tech/success"></input>
+
+     <button  style={{cursor:"pointer"}}  className="btn btn-primary"  type="submit">Send</button>
+</form>
+                
                 </section>
             </main>
         </>

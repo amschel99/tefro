@@ -6,15 +6,9 @@ import design2 from "../src/assets/portfolio/design/design2.png";
 import design3 from "../src/assets/portfolio/design/design2.png";
 
  const designData = [
-	{ img: design1, heading: "This is the Design 1" },
-	{ img: design2, heading: "This is the Design 2" },
-	{ img: design3, heading: "This is the Design 3" },
-    { img: design1, heading: "This is the Design 4" },
-	{ img: design2, heading: "This is the Design 5" },
-	{ img: design3, heading: "This is the Design 6" },
-    { img: design1, heading: "This is the Design 7" },
-	{ img: design2, heading: "This is the Design 8" },
-	{ img: design3, heading: "This is the Design 9" },
+	{ img: design1, heading: "Nichlabs", description:"User friendly and aesthetic UI/UX for the Nichlabs app with a light theme and dark theme. We also designed their user friendly website and the mobile app using React and React native. The app is available on playstore and applestore.",company:"https://nichlabs.com", preview:"https://www.figma.com/proto/au3f8UoVSgfnEuD1Yokw7i/nichlabs?type=design&node-id=84-2309&t=OSgsnPbAUP4Gry47-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A68&show-proto-sidebar=1" },
+	{ img: design2, heading: "VinylIt", description:"Artistic and beautiful design for VinylIt app. VinylIt is a video editing app available for android and IOS.We designed the user interface, built the landing page and developed the mobile app available on Android and IOS.", company:"https://vinylIt.tefro.tech", },
+	
 ];
 
 //Discord Bots Section Images and Data

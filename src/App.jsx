@@ -9,6 +9,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import TermsAndService from "./Pages/TermsAndService/TermsAndService";
 import Footer from "./components/Footer/Footer";
+import Success from "./Pages/Success/Success";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -30,6 +31,9 @@ function App() {
 						</Route>
 						<Route exact path="/portfolio">
 							<Portfolio />
+						</Route>
+						<Route exact path="/success">
+							<Success />
 						</Route>
 						<Route exact path="/tos">
 							<TermsAndService />

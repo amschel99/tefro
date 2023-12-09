@@ -27,47 +27,14 @@ function Portfolio(props) {
 				<div className="portfolio__header padding" id="particles">
 					<h1 className="portfolio__header__heading">PORTFOLIO</h1>
 
-					<div className="category-menu">
-						<div
-							className={`btn-category ${
-								tab === "design" ? "btn-active" : ""
-							}`}
-							onClick={() => setTab("design")}
-						>
-							Design
-						</div>
-						<div
-							className={`btn-category ${
-								tab === "discordbots" ? "btn-active" : ""
-							}`}
-							onClick={() => setTab("discordbots")}
-						>
-							Discord Bots
-						</div>
-						<div
-							className={`btn-category ${
-								tab === "minecraft" ? "btn-active" : ""
-							}`}
-							onClick={() => setTab("minecraft")}
-						>
-							Minecraft
-						</div>
-						<div
-							className={`btn-category ${
-								tab === "website" ? "btn-active" : ""
-							}`}
-							onClick={() => setTab("website")}
-						>
-							Website
-						</div>
-					</div>
+					
 				</div>
 
 				<div className="cat-display padding">
 					{tab === "design" && <Design />}
-					{tab === "discordbots" && <DiscordBots />}
-					{tab === "minecraft" && <Minecraft />}
-					{tab === "website" && <Website />}
+					{tab === "web" && <DiscordBots />}
+					{tab === "mobile" && <Minecraft />}
+					
 				</div>
 			</div>
 		</>
