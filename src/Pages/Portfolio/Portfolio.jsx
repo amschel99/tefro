@@ -22,22 +22,22 @@ function Portfolio(props) {
     //State to switch between Categories
 	const [tab, setTab] = useState("design");
 	return (
-		<>
-			<div className="portfolio">
+	
+			<div className="portfolio" >
 				<div className="portfolio__header padding" id="particles">
 					<h1 className="portfolio__header__heading">PORTFOLIO</h1>
 
 					
 				</div>
 
-				<div className="cat-display padding">
+				<div  className="cat-display padding">
 					{tab === "design" && <Design />}
 					{tab === "web" && <DiscordBots />}
 					{tab === "mobile" && <Minecraft />}
 					
 				</div>
 			</div>
-		</>
+
 	);
 }
 import "./Portfolio.scss";

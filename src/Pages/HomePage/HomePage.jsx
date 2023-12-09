@@ -35,7 +35,7 @@ function HomePage(props) {
                             className="header__brand__icon"
                         />
                         <p className="header__brand__description">
-                       At Tefro, we are not just a software and design startup; we are architects of the digital future. Our team comprises brilliant engineers and super creative designers, united by a passion for crafting exceptional experiences. we specialize in web, mobile, UI/UX, blockchain, bot development, and the realms of AI and ML. At Tefro, innovation isn't just a buzzword; it's the heartbeat of everything we create.
+                       At Tefro, we are not just a software and design startup; we are architects of the digital future. Our team comprises brilliant engineers and super creative designers, united by a passion for crafting exceptional experiences. we specialize in web, mobile, UI/UX, blockchain, bot development, and the realms of AI and ML.
                         </p>
                     </div>
                 </section>
@@ -419,7 +419,7 @@ function HomePage(props) {
      <input  placeholder="Name" 
      style={{
         height: "40px",
-        width: "47vw",
+        width: "70vw",
         borderRadius: "10px",
         outline: "none",
         border: "2px solid #00f2b6",
@@ -437,7 +437,7 @@ function HomePage(props) {
      placeholder="Email"
       style={{
         height: "40px",
-        width: "47vw",
+        width: "70vw",
         borderRadius: "10px",
         outline: "none",
         border: "2px solid #00f2b6",
@@ -455,7 +455,7 @@ function HomePage(props) {
      placeholder="Message"
   style={{
     height: "100px",
-    width: "50vw",
+    width: "70vw",
     borderRadius: "10px",
     outline: "none",
     border: "2px solid #00f2b6",

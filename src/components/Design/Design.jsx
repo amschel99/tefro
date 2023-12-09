@@ -10,13 +10,14 @@ function Design(props) {
 			<div className="design__item">
 				<img src={item.img} alt="" className="design__item__image" />
 				<h2 className="design__item__heading">{item.heading}</h2>
-				<p className="design__item__paragraph">{item.description}</p>
-				<p className="design__item__link"><a style={{color:"#00f2b6"}} href={item.company}>View more about the product</a></p>
+				<h2 style={{fontSize:"14px"}} className="design__item__heading">{item.description}</h2>
+				<img src={item.img} alt="" className="design__item__mini" />
+				<a style={{fontSize:"14px", color:"#00f2b6"}} href={item.company}>View more</a>
 			</div>
 		);
 	});
 
-	return <div classNamae="design">{Elements}</div>;
+	return <div className="design">{Elements}</div>;
 }
 import "./Design.scss";
 export default Design;
