@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route,matchPath,useLocation } from "react-router-dom";
 import { useState } from "react";
 
 //Pages
@@ -10,8 +10,10 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import TermsAndService from "./Pages/TermsAndService/TermsAndService";
 import Footer from "./components/Footer/Footer";
 import Success from "./Pages/Success/Success";
+import { Router } from "react-router-dom/cjs/react-router-dom";
 
 function App() {
+
 	const [loading, setLoading] = useState(true);
 	const spinner = document.getElementById("loader");
 	if (spinner) {
@@ -39,7 +41,11 @@ function App() {
 							<TermsAndService />
 						</Route>
 					</Switch>
+					
 					<Footer />
+					<Switch>
+						
+					</Switch>
 				</div>
 			</>
 		)

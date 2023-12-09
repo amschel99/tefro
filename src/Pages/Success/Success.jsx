@@ -15,10 +15,7 @@ function Success(props) {
   }, [history]);
 
   return (
-    <div className="design">
-      Success! Message sent
-      {/* You can add additional content here if needed */}
-    </div>
+    <h2  style={{height:"30vh", marginTop:"30vh", alignSelf:"center", display:"flex", justifyContent:"center"}}className="services__heading">Message Sent!</h2>
   );
 }
 
