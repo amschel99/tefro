@@ -34,8 +34,10 @@ function HomePage(props) {
                             alt=""
                             className="header__brand__icon"
                         />
-                        <p className="header__brand__description">
-                       At Tefro, we are not just a software and design startup; we are architects of the digital future. Our team comprises brilliant engineers and super creative designers, united by a passion for crafting exceptional experiences. we specialize in web, mobile, UI/UX, blockchain, bot development, and the realms of AI and ML.
+                        <p className="header__brand__description" >
+                        Tefro is a blockchain startup at the forefront of data security. We specialize in researching and developing cutting-edge cryptographic algorithms, particularly those resistant to future quantum computers. Our mission is to empower organizations to safeguard their sensitive data using these post-quantum cryptography methods.
+
+We are also pioneering the development of decentralized AI with end-to-end encryption. This enables training models directly on the blockchain, ensuring the transparency and security of training data while keeping it encrypted. Additionally, Tefro is revolutionizing asset management through tokenization, essentially tokenizing the economy through lines of code.
                         </p>
                     </div>
                 </section>
@@ -86,7 +88,7 @@ function HomePage(props) {
 
                     {/* Services Section */}
                     <section className="services padding">
-                        <h2 className="services__heading">OUR SERVICES</h2>
+                        <h2 className="services__heading">Solutions</h2>
                         <div className="services__container">
                             <div className="services__container__item card-hover">
                                 <div className="services__container__item__illustration">
@@ -98,11 +100,20 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Web Development
+                                    Post-quantum cryptography
                                     </h3>
                                     <p className="services__container__item__description__details">
-                  We create performant and stunning websites.
-                                    </p>
+                                    Post-quantum cryptography (PQC) is crucial because it addresses a looming threat to current encryption methods posed by quantum computers. Here's a breakdown:
+
+Why PQC is Important:
+
+    Quantum Threat: Traditional encryption relies on mathematical problems that are difficult for classical computers to solve (e.g., factoring large numbers). However, quantum computers leverage the principles of quantum mechanics to perform these calculations significantly faster. This means they could potentially crack widely used encryption algorithms in the future.
+    Future-Proofing Data: PQC algorithms are designed to be resistant to attacks from both classical and quantum computers. By adopting PQC now, organizations can ensure their data remains secure even when quantum computers become more powerful.
+    Long-Term Security: Data can be sensitive for years, even decades. Encrypting it with PQC methods now guarantees its confidentiality even in the quantum computing age.
+
+
+
+PQC doesn't eliminate all threats, but it strengthens the foundation of encryption in a world where quantum computers might break current methods.                </p>
                                 </div>
                             </div>
                             <div className="services__container__item card-hover">
@@ -115,10 +126,17 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Cross Platform App Development
+                                   Decentralized AI
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                   We create mobile applications that run seamlessly on Android and IOS.
+                                    The reason decentralized AI is crucial lies in its ability to address the inherent limitations of centralized AI models, particularly regarding data security, transparency, and collaboration.  
+
+ Traditional centralized AI models concentrate vast quantities of training data in a single location, creating a prime target for attackers. Decentralized AI distributes this data across a network, making it significantly harder to compromise. Additionally, end-to-end encryption safeguards user data even while it contributes to the model's training, further bolstering privacy. 
+
+ Centralized AI can often be shrouded in secrecy, raising concerns about bias and fairness in decision-making. Decentralized AI fosters transparency by distributing the model and its training data across a network. This allows for greater scrutiny and public trust in the AI's outputs. 
+
+Decentralized AI enables multiple organizations to contribute data and expertise to a shared AI model without relinquishing control over their sensitive information. This collaborative approach can lead to the development of richer, more diverse datasets, ultimately improving the model's accuracy and generalizability.
+
                                     </p>
                                 </div>
                             </div>
@@ -132,70 +150,25 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                      Blockchain 
+                              Asset Tokenization
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    We specialize in developing DApps that run seamlessly across various blockchain networks, including Solana, Ethereum, ICP, and more.
+                                    Asset tokenization, particularly for traditionally illiquid assets like shares, unlocks new levels of liquidity, efficiency, and security by enabling fractional ownership, facilitating 24/7 trading on global marketplaces, and leveraging blockchain technology for automated settlements, reduced transaction costs, and tamper-proof records of ownership.  This is exactly what Quillo, our platform built by Tefro, empowers startups to achieve.  Quillo allows them to raise funds by tokenizing their assets and ownership, democratizing access to capital and fostering innovation. 
+                                    
+                                    You can check out Quillo at <a style={{color:"white"}} href="https://quillo.tefro.tech" target="_blank"> quillo.tefro.tech.</a>
                                     </p>
                                 </div>
                             </div>
-                            <div className="services__container__item card-hover">
-                                <div className="services__container__item__illustration">
-                                    <img
-                                        src="./Discord Bot.png"
-                                        alt=""
-                                        className="services__container__item__illustration__image"
-                                    />
-                                </div>
-                                <div className="services__container__item__description">
-                                    <h3 className="services__container__item__description__heading">
-                                        Discord Bot Development
-                                    </h3>
-                                    <p className="services__container__item__description__details">
-                                    We specialize in crafting intelligent and interactive Discord bots tailored to enhance engagement, moderation, and overall functionality for your server.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="services__container__item card-hover">
-                                <div className="services__container__item__illustration">
-                                    <img
-                                        src="./design.png"
-                                        alt=""
-                                        className="services__container__item__illustration__image"
-                                    />
-                                </div>
-                                <div className="services__container__item__description">
-                                    <h3 className="services__container__item__description__heading">
-                                        Design
-                                    </h3>
-                                    <p className="services__container__item__description__details">
-                                    At Tefro, we design digital experiences that are both beautiful and easy to use. Our UI/UX experts create interfaces that captivate and simplify, ensuring a seamless and enjoyable user interaction
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="services__container__item card-hover">
-                                <div className="services__container__item__illustration">
-                                    <img
-                                        src="./minecraft design.png"
-                                        alt=""
-                                        className="services__container__item__illustration__image"
-                                    />
-                                </div>
-                                <div className="services__container__item__description">
-                                    <h3 className="services__container__item__description__heading">
-                                     AI and Machine Learning
-                                    </h3>
-                                    <p className="services__container__item__description__details">
-                                    We harness the power of AI and machine learning to transform data into insights and innovation. Our expert team pioneers intelligent solutions, unlocking new possibilities for your business through cutting-edge technology
-                                    </p>
-                                </div>
-                            </div>
+                       
+                          
+                           
+                            
                         </div>
                     </section>
                 </div>
 
                 {/* Features Section */}
-                <section className="features padding">
+                {/* <section className="features padding">
                     <h2 className="features__heading">OUR CORE VALUES</h2>
                     <div className="features__container">
                         <div className="features__container__item card-hover">
@@ -251,12 +224,12 @@ function HomePage(props) {
                             </p>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* Reviews Section */}
                 <section className="reviews padding">
-                    <h2 className="reviews__heading">OUR REVIEWS</h2>
-
+                    {/* <h2 className="reviews__heading">OUR REVIEWS</h2> */}
+{/* 
                     <div className="reviews__carousel">
                         <img
                             src="./btn-prev.png"
@@ -401,7 +374,7 @@ function HomePage(props) {
                             
                         </Swiper>
                         <img src="./btn-next.png" alt="" className="next" />
-                    </div>
+                    </div> */}
                     <form action="https://formsubmit.co/kariukiamschel9@gmail.com" method="POST" style={{
 
                         display:"flex",

@@ -12,7 +12,7 @@ function Design(props) {
 				<h2 className="design__item__heading">{item.heading}</h2>
 				<h2 style={{fontSize:"14px"}} className="design__item__heading">{item.description}</h2>
 				<img src={item.img} alt="" className="design__item__mini" />
-				<a style={{fontSize:"14px", color:"#00f2b6"}} href={item.company}>View more</a>
+				<a style={{fontSize:"14px", color:"#00f2b6"}} href={item.company}>Learn more</a>
 			</div>
 		);
 	});

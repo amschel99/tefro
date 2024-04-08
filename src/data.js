@@ -1,13 +1,13 @@
 //Image Imports
 
 //Design Images and Data
-import design1 from "../src/assets/portfolio/design/design1.png";
+import design1 from "../src/assets/quillo-logo.png";
 import design2 from "../src/assets/portfolio/design/design2.png";
 import design3 from "../src/assets/portfolio/design/design2.png";
 
  const designData = [
 	
-	{ img: design2, heading: "VinylIt", description:"Artistic and beautiful design for VinylIt app. VinylIt is a video editing app available for android and IOS.We designed the user interface, built the landing page and developed the mobile app available on Android and IOS.", company:"https://vinylIt.tefro.tech", },
+	{ img: design1, heading: "Quillo", description:"Quillo is an innovative platform empowering startups to initiate fundraising campaigns by tokenizing company ownership or assets. Through Quillo, startups can offer tokens representing ownership, which investors can acquire, enabling them to not only gain ownership but also actively participate in decision-making within the company.", company:"https://quillo.tefro.tech" },
 	
 ];
 
