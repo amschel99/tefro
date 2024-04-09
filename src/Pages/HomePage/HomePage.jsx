@@ -50,7 +50,7 @@ We are also pioneering the development of decentralized AI with end-to-end encry
                         <div class="video-container">
                             <iframe
                                 class="video-iframe"
-                                src="https://www.youtube.com/embed/xh3OuuCQwGg?si=GfKCn1J_NwsgIo9U"
+                                src="https://www.youtube.com/embed/C_X2wlSnd18?si=ZjFdPmGmHSH7DeSe"
                                 title="Rick Roll"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
